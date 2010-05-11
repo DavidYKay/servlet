@@ -16,10 +16,10 @@ public class RegisterServlet extends HttpServlet implements Servlet {
         writer.println("<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\">");
         writer.println("<HTML>");
         writer.println("<HEAD>");
-        writer.println("<TITLE>A Sample FORM using POST</TITLE>");
+        writer.println("<TITLE>Registration Form</TITLE>");
         writer.println("</HEAD>");
         writer.println("<BODY BGCOLOR=\"#FDF5E6\">");
-        writer.println("<H1 ALIGN=\"CENTER\">A Sample FORM using POST</H1>");
+        writer.println("<H1 ALIGN=\"CENTER\">Registration Form</H1>");
         writer.println("<FORM ACTION=\"/dk/register\"");
         writer.println("METHOD=\"POST\">");
         writer.println("User name:");
